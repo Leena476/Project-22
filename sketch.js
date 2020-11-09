@@ -66,7 +66,7 @@ function draw() {
         background(0);
   
         //make position of package sprite to match the package body
-              packageSprite.x = packageBody.position.x;
+        packageSprite.x = packageBody.position.x;
         packageSprite.y = packageBody.position.y;
   
         //call keyPressed() function
