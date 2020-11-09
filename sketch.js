@@ -59,20 +59,21 @@ function setup() {
 
 function draw() {
   
-  //change rect mode to center
-  rectMode(CENTER);
+        //change rect mode to center
+        rectMode(CENTER);
   
-  //set background color to black (zero)
-  background(0);
+        //set background color to black (zero)
+        background(0);
   
-  //make position of package sprite to match the package body
-  packageSprite.x = packageBody.position.x;
-  packageSprite.y = packageBody.position.y;
+        //make position of package sprite to match the package body
+              packageSprite.x = packageBody.position.x;
+        packageSprite.y = packageBody.position.y;
   
-  //call keyPressed() function
-  keyPressed();
+        //call keyPressed() function
+        keyPressed();
   
-  drawSprites();
+        //essential function to draw sprites
+	drawSprites();
 
 }
 
